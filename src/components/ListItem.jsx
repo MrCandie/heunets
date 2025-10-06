@@ -12,10 +12,7 @@ export default function ListItem({ item }) {
   };
 
   return (
-    <li
-      key={item._id || item.id}
-      className="p-4 mb-2 bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-100"
-    >
+    <li className="p-4 mb-2 bg-white rounded-lg shadow-sm hover:shadow-md transition-all border border-gray-100">
       <div className="flex items-start justify-between">
         <div>
           <h3 className="text-gray-800 capitalize font-medium text-sm sm:text-base">

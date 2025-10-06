@@ -4,7 +4,7 @@ import AddWorkButton from "./components/AddWorkButton";
 import WorkItemSkeleton from "./components/WorkItemSkeleton";
 import WorkList from "./components/WorkList";
 import AddWorkItem from "./components/AddWorkItem";
-import "./app.css";
+import "./App.css";
 import { createWorkItem, fetchWorkItems } from "./util/http";
 import { toast } from "react-toastify";
 
@@ -21,7 +21,7 @@ function App() {
 
   useEffect(() => {
     const fpPromise = FingerprintJS.load({
-      apiKey: import.meta.env.VITE_APIKEY,
+      apiKey: "xWZCQigYgM1ucC989DUl",
     });
 
     fpPromise
