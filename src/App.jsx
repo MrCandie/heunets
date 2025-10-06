@@ -21,7 +21,7 @@ function App() {
 
   useEffect(() => {
     const fpPromise = FingerprintJS.load({
-      apiKey: "xWZCQigYgM1ucC989DUl",
+      apiKey: import.meta.env.VITE_APIKEY,
     });
 
     fpPromise

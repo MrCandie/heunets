@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:4000/api/work-items";
+const API_URL = "https://heunets-backend-9rh5.onrender.com/api/work-items";
 
 export const fetchWorkItems = async (userId) => {
   const { data } = await axios.get(`${API_URL}?userId=${userId}`);
