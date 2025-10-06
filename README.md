@@ -3,7 +3,7 @@
 A sleek, minimal task management app built with React and React Query, designed to help users easily create, view, and organize their work items.
 Each user’s data is automatically linked to their browser fingerprint — no login required.
 
-## Live Demo:
+## Live Demo: https://heunets.vercel.app/
 
 # Features
 
