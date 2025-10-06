@@ -31,26 +31,11 @@ Each user’s data is automatically linked to their browser fingerprint — no l
 
 - FingerprintJS Pro
 
-📂 Project Structure
-src/
-├── components/
-│ ├── AddWorkButton.jsx
-│ ├── AddWorkItem.jsx
-│ ├── WorkItemSkeleton.jsx
-│ └── WorkList.jsx
-│
-├── util/
-│ └── http.js # Axios requests to backend API
-│
-├── App.jsx # Main app logic
-├── app.css # Styling
-└── main.jsx # Entry point
-
 # Setup Instructions
 
 1. Clone the Repository
-   git clone https://github.com/yourusername/work-items-frontend.git
-   cd work-items-frontend
+   git clone https://github.com/MrCandie/heunets
+   cd heunets
 
 2. Install Dependencies
    npm install
@@ -59,8 +44,7 @@ src/
 
 Create a .env file in the project root and set the backend API URL:
 
-VITE_API_BASE_URL=https://your-backend-url.com
-VITE_FINGERPRINT_API_KEY=your-fingerprintjs-api-key
+### VITE_FINGERPRINT_API_KEY=
 
 4. Run Locally
    npm run dev
@@ -69,7 +53,7 @@ App will be available at:
 
 http://localhost:5173
 
-🧠 How It Works
+# How It Works
 
 The app loads a unique browser fingerprint using FingerprintJS Pro.
 
